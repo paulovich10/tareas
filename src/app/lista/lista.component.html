@@ -1,0 +1,5 @@
+<div class="wrapper" *ngFor="let tarea of tareas;"
+    [ngClass]="{'tarea-completa': tarea.completa, 'tarea-incompleta: !tarea.completa'}">
+    <h3>{{tarea.titulo}}</h3>
+    <p>{{tarea.descripcion}}</p>
+</div>

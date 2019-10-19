@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo';
+  arrTareas: any[];
+
+  constructor() {
+
+    this.arrTareas = [];
+
+  }
+
+  ontareaEnviada($event) {
+    this.arrTareas.push({ ...$event });
+    console.log(this.arrTareas);
+
+  }
+
+
 }
+
+
+
