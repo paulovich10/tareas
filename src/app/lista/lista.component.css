@@ -17,3 +17,28 @@ p {
     font-size: 1em;
     padding-left: 3%;
 }
+
+.tarea-completa {
+    background-color: rgb(208, 255, 208);
+}
+
+.tarea-incompleta {
+    background-color: rgb(255, 198, 198);
+}
+
+button {
+
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    padding: 20px;
+    background-color:white;
+}
+
+.wrapper {
+
+    margin: 2%;
+}
